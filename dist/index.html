@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html class="no-js h-full" lang="">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+        <meta name="description" content="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="theme-color" content="#fafafa" />    
+        <link href="./output.css" rel="stylesheet" />
+    </head>
+
+    <body class="h-full bg-slate-900 main-content">
+
+        <div class="app-content">
+            <h1 class="py-2 px-4 text-bold text-slate-50"></h1>
+            <button id="square" class="bg-indigo-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                Discriminant carré
+            </button>
+
+            <button  id="negatif" class="bg-indigo-500 hover:bg-blue-700 text-white py-2 px-4 rounded">
+                Discriminant négatif
+            </button>
+
+        </div>
+        <div class="exo-content bg-slate-400 rounded hidden">
+            <h2 class="text-xl"></h2>
+            <h3 class="italic"></h3>
+            <form class="mt-1 space-y-6" action="#" id="response-form">   
+                <div class="-space-y-px rounded-md shadow-sm">
+                    <div>
+                        <label class="sr-only">
+                            Votre réponse 
+                        </label>
+                        <input
+                            id="response"
+                            name="response"
+                            type="text"
+                           
+                            class="relative block w-full appearance-none rounded-none rounded-t-md border border-gray-300  text-gray-900 placeholder-gray-500 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                            placeholder="votre réponse"     
+                        />
+                    </div> 
+                </div>
+                <div>
+                    <button
+                        type="submit"
+                        id="submit-btn"
+                        class="group relative flex w-full justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    >
+                        Valider
+                    </button>
+                </div>
+            </form>
+            <p class="py-2 px-4 "></p>
+        </div>
+        <script src="./bundle.js"></script>
+    </body>
+</html>
