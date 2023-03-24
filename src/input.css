@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+h1{
+    font-size: larger;
+}
 .main-content {
     margin: auto;
 }
@@ -22,4 +24,9 @@
     width: 500px;
     text-align: center;
     padding: 10px;
+}
+
+.img-container{
+    margin: auto;
+    width: 200px;
 }

@@ -1,5 +1,5 @@
-console.log('Générateur d\'exercices de calcule de discriminant');
-const title = 'Générateur d\'exercices de calcule de discriminant';
+console.log('Générateur de calcule de discriminant');
+const title = 'Générateur de calcule de discriminant';
 document.querySelector('title').textContent = title
 
 //**************************/
